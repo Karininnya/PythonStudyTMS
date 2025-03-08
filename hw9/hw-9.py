@@ -1,4 +1,4 @@
-with open('hw9.txt') as inf, open('hw9-2.txt','w') as ouf:
+with open('hw9.txt') as inf, open('hw9-2.txt', 'w') as ouf:
     maxc = 0
     s = inf.read().lower().strip().split()
     s.sort()
