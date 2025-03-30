@@ -121,3 +121,5 @@ def search_product(query):
         return products
 
 
+def init_dbhw16():
+    return None
